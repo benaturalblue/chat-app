@@ -12,7 +12,7 @@
   width: 300px;
   height: 100vh;
   background-color: #2f3e51;
-  padding: 0 20px;
+  padding-right: 20px;
 }
 .main-header {
   background-color: #ffffff;
@@ -27,10 +27,39 @@
   height: 100px;
   width: 300px;
   background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.users {
+  padding: 20px;
+  overflow: scroll;
 }
 .form {
   width: calc(100vw - 300px);
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
+}
+.header-name a{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 20px;
+}
+.create-room a{
+  color: deepskyblue;
+  border: lightblue solid 1px;
+  text-decoration: none;
+  padding: 14px;
+  font-size: 10px;
+  margin-right: 20px;
+  padding: 14px;
+}
+.chat-room a {
+  text-decoration: none;
+  color: white
+}
+.room {
+  padding: 20px 0 40px;
 }
