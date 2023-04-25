@@ -97,7 +97,7 @@
   padding-top: 10px;
   margin-bottom: 40px;
 }
-.message-form {
+.form-input {
   background-color: white;
   width: 100%;
   display: flex;
@@ -109,7 +109,7 @@
   height: 50px;
   color: #dddddd;
 }
-.submit-button {
+.form-submit {
   color: white;
   background-color: #38aef0;
   border:none;
